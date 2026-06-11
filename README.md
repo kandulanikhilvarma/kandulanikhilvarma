@@ -175,6 +175,7 @@ Modern, responsive portfolio showcasing projects, research, and professional pre
 | **Portfolio** | [kandula.studio](https://kandula.studio) |
 | **LinkedIn** | [linkedin.com/in/nikhilvarmakandula](https://www.linkedin.com/in/nikhilvarmakandula) |
 | **Email** | [kandulanikhilvarma@gmail.com](mailto:kandulanikhilvarma@gmail.com) |
+| **Kaggle** | [kaggle/kandula](https://www.kaggle.com/nikhilvarmakandula) |
 | **GitHub** | [github.com/kandulanikhilvarma](https://github.com/kandulanikhilvarma) |
 
 ---
