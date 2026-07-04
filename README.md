@@ -1,209 +1,46 @@
-<div align="center" style="background: linear-gradient(135deg, rgba(193, 95, 60, 0.05) 0%, rgba(177, 173, 161, 0.03) 100%); padding: 60px 20px; border-radius: 16px; margin-bottom: 40px;">
-
 # Nikhilvarma Kandula
 
-**Data Science · NLP · Statistical Analysis · Labour Market Research**
+**Data Science · NLP · Statistical Analysis — Essen, Germany**
 
-</div>
-
----
-
-## Featured Projects
-
-<table style="width: 100%; border-collapse: collapse; margin-bottom: 60px;">
-<tr>
-<td style="width: 50%; padding: 20px; vertical-align: top; background: linear-gradient(135deg, rgba(193, 95, 60, 0.08) 0%, rgba(244, 243, 238, 1) 100%); border-radius: 12px; border: 1px solid #b1ada1;">
-
-### Quantifying Data Quality
-
-**Statistical Framework for Scientific Datasets**
-
-A research-grade corpus analysis demonstrating:
-- Four-dimensional DQ scoring system (Completeness, Consistency, Accuracy, Timeliness)
-- Ground-truth validation with UCI Air Quality dataset (9,357 observations)
-- NER confidence scoring (88.4% precision)
-- K-Means clustering on quality metrics
-
-**Technologies:** Python · Jupyter · spaCy · scikit-learn
-
-[View Repository →](https://github.com/kandulanikhilvarma/quantifying-data-quality)
-
-</td>
-<td style="width: 50%; padding: 20px; vertical-align: top; background: linear-gradient(135deg, rgba(193, 95, 60, 0.08) 0%, rgba(244, 243, 238, 1) 100%); border-radius: 12px; border: 1px solid #b1ada1;">
-
-### German Tech Job Market Intelligence
-
-**3,200 Job Postings · Skill Extraction & Role Clustering**
-
-Production-scale NLP pipeline demonstrating:
-- Multi-source web scraping (StepStone, Indeed, LinkedIn)
-- TF-IDF + spaCy EntityRuler skill extraction (30,324 skill-posting pairs)
-- Levenshtein deduplication at 85% threshold
-- 4 interpretable role archetypes (K-Means, Silhouette=0.61)
-
-**Technologies:** Python · spaCy · scikit-learn · TF-IDF
-
-[View Repository →](https://github.com/kandulanikhilvarma/skill-demand-deutschland-tech-market)
-
-</td>
-</tr>
-</table>
+I build data products and research-grade analysis pipelines. Currently building **Rankwell**, a GEO/AI-visibility tracker that shows law firms how ChatGPT, Gemini and Perplexity talk about them versus competitors — daily scans, explainable 0–100 visibility scores, citation-gap recommendations.
 
 ---
 
-## Project Portfolio
+## Featured projects
 
-<table style="width: 100%; border-collapse: collapse;">
-<tr>
-<td style="width: 33%; padding: 24px; vertical-align: top; background: #f4f3ee; border-radius: 8px; border-left: 3px solid #c15f3c; margin-right: 16px; margin-bottom: 16px;">
+| Project | What it shows | Stack |
+|---|---|---|
+| [Quantifying Data Quality](https://github.com/kandulanikhilvarma/quantifying-data-quality) | Four-dimensional DQ scoring framework (completeness, consistency, accuracy, timeliness), validated against the UCI Air Quality dataset (9,357 observations); NER confidence scoring at 88.4% precision; K-Means clustering on quality metrics | Python · spaCy · scikit-learn |
+| [German Tech Job Market Intelligence](https://github.com/kandulanikhilvarma/skill-demand-deutschland-tech-market) | Production-scale NLP pipeline over 3,200 job postings: multi-source scraping, TF-IDF + spaCy EntityRuler skill extraction (30,324 skill-posting pairs), Levenshtein deduplication, 4 interpretable role archetypes (Silhouette = 0.61) | Python · spaCy · TF-IDF |
+| [Rider Segmentation & Growth](https://github.com/kandulanikhilvarma/rider-segmentation-growth) | 5.5M bike-share trips analyzed in BigQuery SQL — casual vs. member behavior with 3 data-driven marketing recommendations | SQL · BigQuery · Tableau |
+| [Flight Delay Analysis](https://github.com/kandulanikhilvarma/flight-delay-analysis) | 3M U.S. domestic flights (2019–2023): delay drivers, seasonality, carrier comparison | Python · Jupyter |
+| [Return Rate Analysis](https://github.com/kandulanikhilvarma/return-rate-analysis) | E-commerce return-risk segmentation by product category, price range and customer segment, framed against Germany's €92B e-commerce market | Python · BI |
+| [ESG–GDP Regression](https://github.com/kandulanikhilvarma/esg-gdp-regression) | Whether CO₂ emissions per capita and renewable-energy share predict GDP — hypothesis testing and regression diagnostics | Python · Jupyter |
+| [Manufacturing Cost Variance](https://github.com/kandulanikhilvarma/manufacturing-cost-variance-qlik) | Qlik Sense dashboard for manufacturing cost-variance monitoring | Qlik · Python |
 
-#### Cyclistic Bike-Share Analysis
+## By the numbers
 
-**5.5M Rides · Business Analytics**
+- **9,357** records analyzed for the data-quality framework · **96.7%** overall quality score
+- **3,200** German tech job postings processed · **156** unique skills extracted · **30,324** skill-posting pairs
+- **5.5M** bike-share rides examined · **3M** flights analyzed
+- **88.4%** NER precision · **0.61** clustering silhouette score
 
-BigQuery SQL analysis of casual vs. member rider behavior with 3 data-driven marketing recommendations.
+## Skills
 
-**Tech:** SQL · BigQuery · Tableau · Excel
+**Data science** — statistical modeling, NLP and text analysis, unsupervised learning, feature engineering
+**Analytics** — SQL/BigQuery, Tableau, Power BI, business intelligence
+**Engineering** — Python, data pipelines, web scraping; TypeScript/Next.js for product work
+**Research** — hypothesis testing, quantitative analysis, labour-market research, German market analysis
 
-⭐ 1 · [Details](https://github.com/kandulanikhilvarma/cyclistic-bikeshare-case-study)
-
-</td>
-<td style="width: 33%; padding: 24px; vertical-align: top; background: #f4f3ee; border-radius: 8px; border-left: 3px solid #c15f3c; margin-right: 16px; margin-bottom: 16px;">
-
-#### Return Rate Analysis
-
-**E-Commerce Risk Segmentation**
-
-UK retail dataset analyzed in context of Germany's €92B e-commerce market. Identifies high-risk product categories and customer segments.
-
-**Tech:** Python · Data Analysis · Business Intelligence
-
-[Details](https://github.com/kandulanikhilvarma/return-rate-analysis)
-
-</td>
-<td style="width: 33%; padding: 24px; vertical-align: top; background: #f4f3ee; border-radius: 8px; border-left: 3px solid #c15f3c; margin-bottom: 16px;">
-
-#### Portfolio Website
-
-**Personal Brand Hub**
-
-Modern, responsive portfolio showcasing projects, research, and professional presence.
-
-**Tech:** HTML · CSS · Responsive Design
-
-⭐ 1 · [Details](https://github.com/kandulanikhilvarma/kandulanikhilvarma.github.io)
-
-</td>
-</tr>
-</table>
-
----
-
-## Skills & Specializations
-
-<table style="width: 100%; border-collapse: collapse; margin-bottom: 40px;">
-<tr style="background: linear-gradient(90deg, rgba(193, 95, 60, 0.08), rgba(244, 243, 238, 0.5));">
-<td style="padding: 20px; border-radius: 8px 0 0 8px;">
-
-**Data Science**
-- Statistical Modeling
-- NLP & Text Analysis
-- Unsupervised Learning
-- Feature Engineering
-
-</td>
-<td style="padding: 20px;">
-
-**Analytics**
-- SQL & BigQuery
-- Data Visualization
-- Business Intelligence
-- Tableau & Power BI
-
-</td>
-<td style="padding: 20px;">
-
-**Programming**
-- Python (Advanced)
-- SQL (Expert)
-- Data Processing Pipelines
-- Web Scraping
-
-</td>
-<td style="padding: 20px; border-radius: 0 8px 8px 0;">
-
-**Research**
-- Hypothesis Testing
-- Quantitative Analysis
-- Labour Market Research
-- German Market Analysis
-
-</td>
-</tr>
-</table>
-
----
-
-## By the Numbers
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    RESEARCH & PROJECTS                      │
-├─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  9,357  records analysed (Air Quality dataset)               │
-│  3,200  job postings processed (German tech market)          │
-│  5.5M   bike rides examined (Cyclistic case study)           │
-│                                                               │
-│  156    unique skills extracted from job market              │
-│  30,324 skill-posting pairs mapped                           │
-│  4      role archetypes identified (K-Means clustering)      │
-│                                                               │
-│  88.4%  NER precision (skill extraction)                     │
-│  0.61   Silhouette score (clustering quality)                │
-│  96.7%  overall data quality (QA metrics)                    │
-│                                                               │
-└─────────────────────────────────────────────────────────────┘
-```
-
----
-
-## Quick Links
+## Links
 
 | | |
-|--|--|
-| **Portfolio** | [kandula.studio](https://kandula.studio) |
-| **LinkedIn** | [linkedin.com/in/nikhilvarmakandula](https://www.linkedin.com/in/nikhilvarmakandula) |
-| **Email** | [kandulanikhilvarma@gmail.com](mailto:kandulanikhilvarma@gmail.com) |
-| **Kaggle** | [kaggle/kandula](https://www.kaggle.com/nikhilvarmakandula) |
-| **GitHub** | [github.com/kandulanikhilvarma](https://github.com/kandulanikhilvarma) |
+|---|---|
+| Portfolio | [kandula.studio](https://kandula.studio) |
+| LinkedIn | [linkedin.com/in/nikhilvarmakandula](https://www.linkedin.com/in/nikhilvarmakandula) |
+| Kaggle | [kaggle.com/nikhilvarmakandula](https://www.kaggle.com/nikhilvarmakandula) |
+| Email | [kandulanikhilvarma@gmail.com](mailto:kandulanikhilvarma@gmail.com) |
 
 ---
 
-## Research Focus
-
-Currently exploring:
-- **Labour Market Dynamics** — How skill demand evolves across industries and geographies
-- **Data Quality Frameworks** — Quantifying and scoring dataset reliability at scale
-- **NLP at Scale** — Production pipelines for text extraction and clustering
-- **German Tech Market** — Competitive skill analysis and hiring trends
-
----
-
-<div align="center" style="margin-top: 60px; padding: 40px; background: linear-gradient(135deg, #f4f3ee 0%, rgba(193, 95, 60, 0.05) 100%); border-radius: 12px;">
-
-## Let's Connect
-
-Interested in collaboration, research partnerships, or discussing data science challenges?
-
-[Open an Issue](https://github.com/kandulanikhilvarma/kandulanikhilvarma/issues) · [Send an Email](mailto:kandulanikhilvarma@gmail.com) · [Visit Portfolio](https://kandula.studio)
-
-</div>
-
----
-
-<div align="center" style="margin-top: 40px; padding: 20px; color: #b1ada1; font-size: 14px;">
-
-Last updated: June 2026 · All projects use MIT License · Open to collaboration
-
-</div>
+Open to collaboration and research partnerships. Last updated: July 2026.
