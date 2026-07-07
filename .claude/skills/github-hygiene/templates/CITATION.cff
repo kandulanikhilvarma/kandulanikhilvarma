@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "<PROJECT TITLE>"
+authors:
+  - family-names: Kandula
+    given-names: Nikhilvarma
+    email: kandulanikhilvarma@gmail.com
+    website: "https://kandula.studio"
+type: software   # or: dataset
+url: "https://github.com/kandulanikhilvarma/<REPO>"
+repository-code: "https://github.com/kandulanikhilvarma/<REPO>"
+license: MIT     # match the repo's LICENSE file
+keywords:
+  - <keyword>
