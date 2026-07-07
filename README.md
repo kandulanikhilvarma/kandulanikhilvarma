@@ -1,6 +1,6 @@
 # Nikhilvarma Kandula
 
-**Data Science · NLP · Statistical Analysis — Essen, Germany**
+**Data Science · NLP · Statistical Analysis — Germany**
 
 I build data products and research-grade analysis pipelines. Currently building **Rankwell**, a GEO/AI-visibility tracker that shows law firms how ChatGPT, Gemini and Perplexity talk about them versus competitors — daily scans, explainable 0–100 visibility scores, citation-gap recommendations.
 
