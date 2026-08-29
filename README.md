@@ -1,10 +1,12 @@
 # Nikhilvarma Kandula
 
-**Data Engineer · AI Engineer · Developer — targeting Germany. Building in public, zero to market.**
+**Founder & AI Engineer — I build AI products end to end, then ship them. Based in Germany.**
 
 <sub>Also written as **Nikhil Varma Kandula** · Kandula Nikhilvarma · Nikhilvarma K</sub>
 
-I build data products and research-grade analysis pipelines. Currently building **Rankwell**, a GEO/AI-visibility tracker that shows law firms how ChatGPT, Gemini and Perplexity talk about them versus competitors — daily scans, explainable 0–100 visibility scores, citation-gap recommendations.
+I build and ship AI products end to end — from the model call to the interface someone actually uses. Four are live right now: **FirstChair** (AI visibility tracking for law firms), **Cartwise** (receipt → nutrition), **Bud** (habit tracking) and **Knock** (local services booking).
+
+Before founding, I spent eighteen months at a US fintech taking a monolith to event-driven microservices for 500+ concurrent users, and built an LLM audit pipeline that cut fifteen weekly review hours to about three. Now an M.Sc. in Big Data & Business Analytics at FOM Hochschule, with a peer-reviewed paper on rainfall estimation by data fusion.
 
 📌 **Portfolio and full case studies → [kandula.studio](https://kandula.studio)**
 
@@ -14,10 +16,10 @@ I build data products and research-grade analysis pipelines. Currently building 
 
 | Product | What it does | Live | Case study |
 |---|---|---|---|
-| **FirstChair** | How ChatGPT, Gemini and Perplexity describe a law firm versus its competitors | [try it](https://thefirstchair.vercel.app) | [kandula.studio/work/firstchair](https://kandula.studio/work/firstchair/) |
-| **Cartwise** | Photograph a receipt, get a nutrition summary — the data entry is the whole problem, so it removes it | [try it](https://cartwise-nine.vercel.app) | [kandula.studio/work/cartwise](https://kandula.studio/work/cartwise/) |
-| **Habit Game** | Habit tracking that borrows from games instead of from spreadsheets | [try it](https://buddd.vercel.app) | [kandula.studio/work/habit-game](https://kandula.studio/work/habit-game/) |
-| **Doorstep** | Local services booking, built end to end | [try it](https://services-app-zeta.vercel.app) | [kandula.studio/work/doorstep](https://kandula.studio/work/doorstep/) |
+| **FirstChair** | How ChatGPT, Gemini and Perplexity describe a law firm versus its competitors · [repo](https://github.com/kandulanikhilvarma/firstchair) | [try it](https://thefirstchair.vercel.app) | [kandula.studio/work/firstchair](https://kandula.studio/work/firstchair/) |
+| **Cartwise** | Photograph a receipt, get a nutrition summary — the data entry is the whole problem, so it removes it · [repo](https://github.com/kandulanikhilvarma/cartwise) | [try it](https://cartwise-nine.vercel.app) | [kandula.studio/work/cartwise](https://kandula.studio/work/cartwise/) |
+| **Bud** | Habit tracking that borrows from games instead of from spreadsheets · [repo](https://github.com/kandulanikhilvarma/bud) | [try it](https://buddd.vercel.app) | [kandula.studio/work/habit-game](https://kandula.studio/work/habit-game/) |
+| **Knock** | Local services booking, built end to end | [try it](https://services-app-zeta.vercel.app) | [kandula.studio/work/doorstep](https://kandula.studio/work/doorstep/) |
 
 ## Research & production systems
 
@@ -46,10 +48,11 @@ I build data products and research-grade analysis pipelines. Currently building 
 
 ## Skills
 
+**AI & LLM** — LLM orchestration, retrieval-augmented generation, prompt engineering, LLM audit pipelines, generative engine optimisation (GEO)
+**Product engineering** — TypeScript, Next.js, Supabase, Prisma; shipping and running products end to end
+**Data engineering** — Python, data pipelines, event-driven architecture, microservices, SQL/BigQuery
 **Data science** — statistical modeling, NLP and text analysis, unsupervised learning, feature engineering
-**Analytics** — SQL/BigQuery, Tableau, Power BI, business intelligence
-**Engineering** — Python, data pipelines, web scraping; TypeScript/Next.js for product work
-**Research** — hypothesis testing, quantitative analysis, labour-market research, German market analysis
+**Analytics & research** — Tableau, Qlik, Power BI; hypothesis testing, quantitative analysis, peer-reviewed research
 
 ## Find me
 
@@ -66,4 +69,4 @@ I build data products and research-grade analysis pipelines. Currently building 
 
 ---
 
-Open to data, software and AI engineering roles in Germany, and to collaboration and research partnerships.
+Open to AI, data and software engineering roles in Germany, and to collaboration and research partnerships.
