@@ -1,66 +1,94 @@
 # Nikhilvarma Kandula
 
-**Founder & AI Engineer — I build AI products end to end, then ship them. Based in Germany.**
+Founder and AI engineer, based in Germany.
 
-<sub>Also written as **Nikhil Varma Kandula** · Kandula Nikhilvarma · Nikhilvarma K</sub>
+<sub>Also written as Nikhil Varma Kandula · Kandula Nikhilvarma · Nikhilvarma K</sub>
 
-I build and ship AI products end to end — from the model call to the interface someone actually uses. Four are live right now: **FirstChair** (AI visibility tracking for law firms), **Cartwise** (receipt → nutrition), **Bud** (habit tracking) and **Knock** (local services booking).
+I build AI products and I keep them running. Six are live. The table below links to each
+one, and every link opens the real thing.
 
-Before founding, I spent eighteen months at a US fintech taking a monolith to event-driven microservices for 500+ concurrent users, and built an LLM audit pipeline that cut fifteen weekly review hours to about three. Now an M.Sc. in Big Data & Business Analytics at FOM Hochschule, with a peer-reviewed paper on rainfall estimation by data fusion.
+Before I built my own products, I spent eighteen months at a US fintech. I rebuilt a
+monolith into event-driven services for more than 500 concurrent users. I went from data
+engineer to lead developer there. I also built an LLM audit pipeline. It cut fifteen hours
+of weekly manual review to about three.
 
-📌 **Portfolio and full case studies → [kandula.studio](https://kandula.studio)**
+I am now doing an M.Sc. in Big Data and Business Analytics at FOM Hochschule, until August
+2027. I have one peer-reviewed paper, on rainfall estimation by data fusion.
+
+Every project below has a written case study. Each one states what the thing does, how it
+is put together, and what each decision cost. They are at
+**[kandula.studio](https://kandula.studio)**.
 
 ---
 
-## Shipped products — live, and yours to click
+## Live products
 
-| Product | What it does | Live | Case study |
-|---|---|---|---|
-| **FirstChair** | How ChatGPT, Gemini and Perplexity describe a law firm versus its competitors · [repo](https://github.com/kandulanikhilvarma/firstchair) | [try it](https://thefirstchair.vercel.app) | [kandula.studio/work/firstchair](https://kandula.studio/work/firstchair/) |
-| **Cartwise** | Photograph a receipt, get a nutrition summary — the data entry is the whole problem, so it removes it · [repo](https://github.com/kandulanikhilvarma/cartwise) | [try it](https://cartwise-nine.vercel.app) | [kandula.studio/work/cartwise](https://kandula.studio/work/cartwise/) |
-| **Bud** | Habit tracking that borrows from games instead of from spreadsheets · [repo](https://github.com/kandulanikhilvarma/bud) | [try it](https://buddd.vercel.app) | [kandula.studio/work/habit-game](https://kandula.studio/work/habit-game/) |
-| **Knock** | Local services booking, built end to end | [try it](https://services-app-zeta.vercel.app) | [kandula.studio/work/doorstep](https://kandula.studio/work/doorstep/) |
+| Product | What it does | Links |
+|---|---|---|
+| **Ganymede** | Decides which delinquent borrower is worth an agent-minute, then coaches the call that follows. It ranks accounts by the money a call recovers, not by the chance the borrower defaults. | [Live](https://ganymede-kandula.vercel.app) · [Code](https://github.com/kandulanikhilvarma/ganymede) · [Case study](https://kandula.studio/work/ganymede/) |
+| **Witness** | Turns a photograph of a returned gearbox part into a failure record. The record names the ISO damage mode, the severity, the cause, and the batch that made the part. The model suggests. The inspector decides. | [Live](https://witness-kandula.vercel.app) · [Code](https://github.com/kandulanikhilvarma/witness) · [Case study](https://kandula.studio/work/witness/) |
+| **FirstChair** | Measures how ChatGPT, Gemini and Perplexity describe a law firm against its named competitors. It samples each model many times and reports a distribution, because one query of a non-deterministic system is an anecdote. | [Live](https://thefirstchair.vercel.app) · [Code](https://github.com/kandulanikhilvarma/firstchair) · [Case study](https://kandula.studio/work/firstchair/) |
+| **Cartwise** | Reads a photographed grocery receipt and returns a nutrition summary. The receipt is already itemised, so the user logs one thing instead of thirty. | [Live](https://cartwise-nine.vercel.app) · [Code](https://github.com/kandulanikhilvarma/cartwise) · [Case study](https://kandula.studio/work/cartwise/) |
+| **Bud** | Tracks habits the way a game does. The reward lands at the moment you complete the habit, and a missed day decays the streak instead of erasing it. | [Live](https://buddd.vercel.app) · [Code](https://github.com/kandulanikhilvarma/bud) · [Case study](https://kandula.studio/work/habit-game/) |
+| **Knock** | Books local services from both sides of one calendar. Choosing a time submits a claim on a slot, so two customers can never both be told yes. | [Live](https://services-app-zeta.vercel.app) · [Case study](https://kandula.studio/work/doorstep/) |
 
-## Research & production systems
+## Research and production systems
 
-- **[Rainfall estimation via heterogeneous data fusion](https://kandula.studio/work/rainfall-paper/)** — peer-reviewed paper fusing ground sensors, radar and satellite imagery into one signal, beating the industry baseline.
-- **[Fintech real-estate intelligence system](https://kandula.studio/work/microintech/)** — eighteen months rebuilding a monolith into event-driven services for 500+ concurrent users, at financial-grade reliability.
+- **[Rainfall estimation via heterogeneous data fusion](https://kandula.studio/work/rainfall-paper/)**
+  Peer-reviewed, IRJMETS Vol 7 Issue 3. It fuses ground sensors, radar and satellite imagery
+  into one estimate. Probability of detection is 0.58, above the Kriging baseline on the same
+  evaluation set.
+- **[Fintech real-estate intelligence system](https://kandula.studio/work/microintech/)**
+  Eighteen months at MicroIntech. A monolith became event-driven services for more than 500
+  concurrent users, at 100% transaction integrity. The repository is private, so the case
+  study is the record.
 
 ## Data investigations
 
-| Project | What it shows | Stack | Case study |
+| Project | What it found | Stack | Case study |
 |---|---|---|---|
-| [Quantifying Data Quality](https://github.com/kandulanikhilvarma/quantifying-data-quality) | Four-dimensional DQ scoring framework (completeness, consistency, accuracy, timeliness), validated against the UCI Air Quality dataset (9,357 observations); NER confidence scoring at 88.4% precision; K-Means clustering on quality metrics | Python · spaCy · scikit-learn | [read](https://kandula.studio/work/data-quality/) |
-| [German Tech Job Market Intelligence](https://github.com/kandulanikhilvarma/skill-demand-deutschland-tech-market) | Production-scale NLP pipeline over 3,200 job postings: multi-source scraping, TF-IDF + spaCy EntityRuler skill extraction (30,324 skill-posting pairs), Levenshtein deduplication, 4 interpretable role archetypes (Silhouette = 0.61) | Python · spaCy · TF-IDF | [read](https://kandula.studio/work/deutschland-nlp/) |
-| [Rider Segmentation & Growth](https://github.com/kandulanikhilvarma/rider-segmentation-growth) | 5.5M bike-share trips analyzed in BigQuery SQL — casual vs. member behavior with 3 data-driven marketing recommendations | SQL · BigQuery · Tableau | [read](https://kandula.studio/work/cyclistic/) |
-| [Flight Delay Analysis](https://github.com/kandulanikhilvarma/flight-delay-analysis) | 3M U.S. domestic flights (2019–2023): delay drivers, seasonality, carrier comparison | Python · Jupyter | [read](https://kandula.studio/work/flight-delay/) |
-| [Return Rate Analysis](https://github.com/kandulanikhilvarma/return-rate-analysis) | E-commerce return-risk segmentation by product category, price range and customer segment, framed against Germany's €92B e-commerce market | Python · BI | [read](https://kandula.studio/work/return-rate/) |
-| [ESG–GDP Regression](https://github.com/kandulanikhilvarma/esg-gdp-regression) | Whether CO₂ emissions per capita and renewable-energy share predict GDP — hypothesis testing and regression diagnostics | Python · Jupyter | [read](https://kandula.studio/work/esg-gdp/) |
-| [Manufacturing Cost Variance](https://github.com/kandulanikhilvarma/manufacturing-cost-variance-qlik) | Qlik Sense dashboard for manufacturing cost-variance monitoring | Qlik · Python | [read](https://kandula.studio/work/qlik-cost-variance/) |
+| [German tech job market](https://github.com/kandulanikhilvarma/skill-demand-deutschland-tech-market) | Python and SQL appear together in 65% of 3,200 validated German postings. A gazetteer extractor pulled 156 skills at 88.4% precision. Four role clusters separate at a silhouette of 0.61. | Python · spaCy · TF-IDF | [Read](https://kandula.studio/work/deutschland-nlp/) |
+| [Rider segmentation and growth](https://github.com/kandulanikhilvarma/rider-segmentation-growth) | Casual riders are not unconverted members. They ride 1.63 times longer than members and drop 93% on weekdays, which makes a membership discount the wrong offer. | SQL · BigQuery · Tableau | [Read](https://kandula.studio/work/cyclistic/) |
+| [US flight delay analysis](https://github.com/kandulanikhilvarma/flight-delay-analysis) | Across 2.91 million flights, 41.1% of delay minutes come from the aircraft arriving late on its previous leg. That is more than weather, NAS, carrier and security together. | Python · Jupyter | [Read](https://kandula.studio/work/flight-delay/) |
+| [Quantifying data quality](https://github.com/kandulanikhilvarma/quantifying-data-quality) | Four dimensions scored on 9,357 sensor records give a composite index of 0.840. Timeliness is the only failing dimension at 0.626, and it is the one most frameworks leave out. | Python · spaCy · scikit-learn | [Read](https://kandula.studio/work/data-quality/) |
+| [E-commerce return rates](https://github.com/kandulanikhilvarma/return-rate-analysis) | 541,000 transactions segmented by category, price band and customer, read against Germany's 92 billion euro returns problem. | Python · BI | [Read](https://kandula.studio/work/return-rate/) |
+| [ESG and GDP growth](https://github.com/kandulanikhilvarma/esg-gdp-regression) | A published null result. Across 38 OECD countries and eleven years, the model explains almost none of the variance in growth, at an R-squared of 0.004. | Python · Jupyter | [Read](https://kandula.studio/work/esg-gdp/) |
+| [Manufacturing cost variance](https://github.com/kandulanikhilvarma/manufacturing-cost-variance-qlik) | A controlling dashboard with a fixed reading order: over or under, getting worse or not, and where from. 33 tests cover the variance arithmetic. | Qlik · Python | [Read](https://kandula.studio/work/qlik-cost-variance/) |
 
-## By the numbers
+## Numbers, and where each one comes from
 
-- **9,357** records analyzed for the data-quality framework · **96.7%** overall quality score
-- **3,200** German tech job postings processed · **156** unique skills extracted · **30,324** skill-posting pairs
-- **5.5M** bike-share rides examined · **3M** flights analyzed
-- **88.4%** NER precision · **0.61** clustering silhouette score
-- **500+** concurrent users on the production fintech system
+Every figure here links to the work that produced it. None of them is rounded up.
 
-## Skills
+| Figure | What it measures | Source |
+|---|---:|---|
+| 5.5 million | Bike-share trips read in BigQuery | [Rider segmentation](https://kandula.studio/work/cyclistic/) |
+| 2.91 million | US flights analysed, 2019 to 2023 | [Flight delay](https://kandula.studio/work/flight-delay/) |
+| 541,000 | Retail transactions segmented | [Return rates](https://kandula.studio/work/return-rate/) |
+| 9,357 | Sensor records scored, composite index 0.840 | [Data quality](https://kandula.studio/work/data-quality/) |
+| 3,200 | German postings validated, 156 skills at 88.4% precision | [Job market](https://kandula.studio/work/deutschland-nlp/) |
+| 500+ | Concurrent users served at 100% transaction integrity | [MicroIntech](https://kandula.studio/work/microintech/) |
+| 0.58 | Probability of detection, peer-reviewed | [Rainfall paper](https://kandula.studio/work/rainfall-paper/) |
+| +59% | Recovered value per agent-minute over risk-ranking | [Ganymede](https://kandula.studio/work/ganymede/) |
 
-**AI & LLM** — LLM orchestration, retrieval-augmented generation, prompt engineering, LLM audit pipelines, generative engine optimisation (GEO)
-**Product engineering** — TypeScript, Next.js, Supabase, Prisma; shipping and running products end to end
-**Data engineering** — Python, data pipelines, event-driven architecture, microservices, SQL/BigQuery
-**Data science** — statistical modeling, NLP and text analysis, unsupervised learning, feature engineering
-**Analytics & research** — Tableau, Qlik, Power BI; hypothesis testing, quantitative analysis, peer-reviewed research
+## What I work with
 
-## Find me
+| Area | Tools and methods |
+|---|---|
+| AI and LLM | LLM orchestration, retrieval-augmented generation, prompt engineering, LLM audit pipelines, generative engine optimisation |
+| Product engineering | TypeScript, Next.js, React, Supabase, Prisma, Vercel |
+| Data engineering | Python, Polars, pandas, SQL, BigQuery, event-driven architecture, microservices |
+| Data science | LightGBM, scikit-learn, spaCy, calibration, uplift modelling, statistical testing |
+| Analytics | Tableau, Qlik Sense, Power BI, dashboard design |
+
+## Where to find me
 
 | | |
 |---|---|
 | Portfolio | [kandula.studio](https://kandula.studio) |
 | GitHub | [@kandulanikhilvarma](https://github.com/kandulanikhilvarma) |
 | LinkedIn | [in/nikhilvarmakandula](https://www.linkedin.com/in/nikhilvarmakandula) |
+| ORCID | [0009-0000-1331-5771](https://orcid.org/0009-0000-1331-5771) |
+| Google Scholar | [Publications](https://scholar.google.com/citations?user=_-uJC6YAAAAJ) |
 | Medium | [@kandulanikhilvarma](https://medium.com/@kandulanikhilvarma) |
 | Substack | [@nikhilvarmakandula](https://substack.com/@nikhilvarmakandula) |
 | Tableau Public | [nikhilvarma.kandula](https://public.tableau.com/app/profile/nikhilvarma.kandula) |
@@ -69,4 +97,9 @@ Before founding, I spent eighteen months at a US fintech taking a monolith to ev
 
 ---
 
-Open to AI, data and software engineering roles in Germany, and to collaboration and research partnerships.
+Open to AI, data and software engineering roles anywhere in Germany, and to full-time roles
+in India. Available now, 20 hours a week on a student visa in Germany.
+
+[LinkedIn](https://www.linkedin.com/in/nikhilvarmakandula) ·
+[Email](mailto:kandulanikhilvarma@gmail.com) ·
+[Portfolio](https://kandula.studio)
