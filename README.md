@@ -4,24 +4,16 @@ Founder and AI engineer, based in Germany.
 
 <sub>Also written as Nikhil Varma Kandula · Kandula Nikhilvarma · Nikhilvarma K</sub>
 
-I build AI products and I keep them running. Six are live. The table below links to each
-one, and every link opens the real thing.
+I build software, I ship it, and then I keep it running. The last part is where most of the
+work turns out to be.
 
-Before I built my own products, I spent eighteen months at a US fintech. I rebuilt a
-monolith into event-driven services for more than 500 concurrent users. I went from data
-engineer to lead developer there. I also built an LLM audit pipeline. It cut fifteen hours
-of weekly manual review to about three.
-
-I am now doing an M.Sc. in Big Data and Business Analytics at FOM Hochschule, until August
-2027. I have one peer-reviewed paper, on rainfall estimation by data fusion.
-
-Every project below has a written case study. Each one states what the thing does, how it
-is put together, and what each decision cost. They are at
-**[kandula.studio](https://kandula.studio)**.
+Six products are live. Every link below opens the real thing, not a screenshot. Each one
+also has a written case study that says what it does, how it is put together, and what each
+decision cost. The case studies are at **[kandula.studio](https://kandula.studio)**.
 
 ---
 
-## Live products
+## What I am building now
 
 | Product | What it does | Links |
 |---|---|---|
@@ -32,18 +24,40 @@ is put together, and what each decision cost. They are at
 | **Bud** | Tracks habits the way a game does. The reward lands at the moment you complete the habit, and a missed day decays the streak instead of erasing it. | [Live](https://buddd.vercel.app) · [Code](https://github.com/kandulanikhilvarma/bud) · [Case study](https://kandula.studio/work/habit-game/) |
 | **Knock** | Books local services from both sides of one calendar. Choosing a time submits a claim on a slot, so two customers can never both be told yes. | [Live](https://services-app-zeta.vercel.app) · [Case study](https://kandula.studio/work/doorstep/) |
 
-## Research and production systems
+## What building them taught me
+
+Each of these cost me something. Each line links to the project that taught it.
+
+| What I learned | Where I learned it |
+|---|---|
+| Measure the constraint. Do not choose it. The hint budget in Ganymede is 300 ms because 328 real pauses in a call said so, not because 300 was a round number. | [Ganymede](https://kandula.studio/work/ganymede/) |
+| Let the person overrule the model, and keep both answers. Witness stores the inspector's call next to the model's suggestion and never overwrites it, which is what makes a disputed record worth anything later. | [Witness](https://kandula.studio/work/witness/) |
+| One measurement of a non-deterministic system is an anecdote. FirstChair samples repeatedly and reports a distribution. A single rank would have been quicker to build and would have been a fabrication. | [FirstChair](https://kandula.studio/work/firstchair/) |
+| Publish the result that says no. Thirty-eight countries and eleven years returned an R-squared of 0.004. A portfolio with only confirmed hypotheses has quietly deleted its failures. | [ESG and GDP](https://kandula.studio/work/esg-gdp/) |
+| The most useful finding often needs no model. The largest cause of flight delay is the previous delay, and that came out of a groupby, not a classifier. | [Flight delay](https://kandula.studio/work/flight-delay/) |
+
+## Where it came from
+
+The products came out of the data work, not the other way round. The investigations came
+first. They are where I learned to check a number before I built anything on top of it.
+
+Before both, eighteen months at MicroIntech, a US fintech. I rebuilt a monolith into event-driven
+services for more than 500 concurrent users. I went from data engineer to lead developer
+there. I also built an LLM audit pipeline. It cut fifteen hours of weekly manual review to
+about three.
+
+I am now doing an M.Sc. in Big Data and Business Analytics at FOM Hochschule, until August
+2027.
 
 - **[Rainfall estimation via heterogeneous data fusion](https://kandula.studio/work/rainfall-paper/)**
   Peer-reviewed, IRJMETS Vol 7 Issue 3. It fuses ground sensors, radar and satellite imagery
   into one estimate. Probability of detection is 0.58, above the Kriging baseline on the same
   evaluation set.
 - **[Fintech real-estate intelligence system](https://kandula.studio/work/microintech/)**
-  Eighteen months at MicroIntech. A monolith became event-driven services for more than 500
-  concurrent users, at 100% transaction integrity. The repository is private, so the case
-  study is the record.
+  The MicroIntech work, written up. More than 500 concurrent users at 100% transaction
+  integrity. The repository is private, so the case study is the record.
 
-## Data investigations
+### The investigations
 
 | Project | What it found | Stack | Case study |
 |---|---|---|---|
@@ -97,8 +111,8 @@ Every figure here links to the work that produced it. None of them is rounded up
 
 ---
 
-Open to AI, data and software engineering roles anywhere in Germany, and to full-time roles
-in India. Available now, 20 hours a week on a student visa in Germany.
+Still building. Open to AI, data and software engineering roles anywhere in Germany, and to
+full-time roles in India. Available now, 20 hours a week on a student visa in Germany.
 
 [LinkedIn](https://www.linkedin.com/in/nikhilvarmakandula) ·
 [Email](mailto:kandulanikhilvarma@gmail.com) ·
