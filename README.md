@@ -1,6 +1,6 @@
 # Nikhilvarma Kandula
 
-Founder and AI engineer, based in Germany.
+Co-Founder at **[Ruruma](https://ruruma.me)** and AI engineer, based in Germany.
 
 <sub>Also written as Nikhil Varma Kandula · Kandula Nikhilvarma · Nikhilvarma K</sub>
 
